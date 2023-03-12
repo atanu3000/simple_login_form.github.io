@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+
+    /* background: linear-gradient(to left, red, orange); */
+    /* background: linear-gradient(to right, rgba(252, 93, 178, 0.636), rgba(247, 244, 250, 0.625)); */
+    background: linear-gradient(to left, rgb(214, 238, 173), rgb(142, 172, 225));
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 400px;
+    box-shadow: 0px 3px 10px #777;
+    background: rgba(255, 255, 255, 0.57);
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+    margin:0px 20px;
+}
+
+h1 {
+    padding: 10px 0px;
+    text-shadow: 0px 1px 3px #777;
+}
+
+h3,
+p {
+    font-size: 12px;
+    color: #777;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.container form input {
+    padding: 15px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    box-shadow: 0px 3px 10px #777;
+}
+.checkbox {
+    /* display: flex; */
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.container form input:focus {
+    border: 3px solid blueviolet;
+}
+
+.btn {
+    box-shadow: 0px 1px 3px #777;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 40px 0px 20px 0px;
+    /* background: linear-gradient(to right, rgba(252, 93, 178, 0.545), rgba(165, 77, 248, 0.512)); */
+    background: linear-gradient(to left, rgb(213, 244, 160), rgb(133, 171, 238));
+
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+#home {
+    margin-top: 20px;
+}
+.btn a {
+    color: white;
+    /* font-weight: bold; */
+}
+
+.btn:hover {
+    box-shadow: 0px 3px 10px #030c8e79;
+}
+img{
+    border-radius: 50%;
+    width: 80px;
+}
